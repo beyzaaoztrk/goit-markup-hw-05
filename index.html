@@ -344,13 +344,14 @@
    </ul>
    </div>
  </section>
- </main>
+ 
 
 
    
             
 
  <footer class="fter_r">
+  
 <div class="container">
 <div class="bnm-m">
   <a href="./index.html" class="bag-ilk"><span class="sppe_e">Studio</span>WebStudio</a>
@@ -420,7 +421,7 @@
                   Name
                </label>
                <div class="lab-div">
-                  <input id="user-name" type="text" class="inp-ut">
+                  <input id="user-name" name="user-name" type="text" class="inp-ut">
                   <svg width="18" height="24" class="inp-sv">
                      <use href="./images/icons.svg#icon-person"></use>
                   </svg>
@@ -431,7 +432,7 @@
                      Phone
                   </label>
                   <div class="lab-div">
-                     <input class="inp-ut">
+                     <input class="inp-ut" type="text">
                      <svg width="18" height="24" class="inp-sv">
                         <use href="./images/icons.svg#icon-phone"></use>
                      </svg>
@@ -442,19 +443,19 @@
                            Email
                         </label>
                         <div class="lab-div">
-                           <input class="inp-ut">
+                           <input class="inp-ut" type="text">
                            <svg width="18" height="24" class="inp-sv">
                               <use href="./images/icons.svg#icon-email"></use>
                            </svg>
                         </div>
                      </div>
                      <div class="mod-a">
-                        <label class="nam-e">
+                        <label class="nam-e" for="user-comment">
                            Comment
-                           <textarea form="user-comment" name="user-comment" placeholder="Text input" class="text-t"></textarea>
                         </label>
+                        <textarea id="user-comment" name="user-comment" placeholder="Text input" class="text-t"></textarea>
                         <div class="onay-k">
-                           <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="user-r" class="visually-hidden">
+                           <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="user-r visually-hidden">
                         <label for="user-privacy" class="use-cl">
                            I accept the terms and conditions of the
                            <span class="spa-l">
