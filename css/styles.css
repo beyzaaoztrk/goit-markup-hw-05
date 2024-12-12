@@ -589,7 +589,7 @@ border-color: #4d5ae5;
     justify-content: center;
     fill: transparent;
 }
-#user-privacy:checked + .spa-l {
+#user-privacy:checked + .use-cl .spa-l {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
