@@ -392,8 +392,6 @@ img {
     background-color: #31d0aa;
 }
 .cls-a {
-    width: 24;
-    height: 24;
     fill: #F4F4FD;
 }
 .goz-l:hover .alpo {
@@ -591,7 +589,7 @@ border-color: #4d5ae5;
     justify-content: center;
     fill: transparent;
 }
-.user-r:checked + .spa-l {
+#user-privacy:checked + .spa-l {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
